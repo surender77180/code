@@ -1,0 +1,37 @@
+body{
+	background-color: rgb(100,0,0);
+}
+.navbar{
+	border: 0px solid black;
+	padding: 2px;
+	text-align: center;
+	font-size: 70px;
+	font-family: cursive;
+}
+.form{
+	padding: px 2px;
+	margin: 50px 2px;
+	border: 0px solid black;
+	font-size: 70px;
+	font-family: cursive;
+	text-align: center;
+}
+.form label{
+	color:lightgray;
+}
+.form input{
+	color:rgb(125,175,135);
+	padding: 8px 25px;
+	margin: 4px;
+	font-size: 50px;
+	font-family: cursive;
+}
+.button{
+	color:red;	
+
+}
+.marq{
+	font-family: cursive;
+	font-size: 30px;
+	color: skyblue;
+}
