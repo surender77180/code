@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(0,0,0);
+	background-color:black;
 }
 .navbar{
 	border: 0px solid black;
@@ -17,23 +17,23 @@ body{
 	text-align: center;
 }
 .form label{
-	color:lightgray;
+	color:ivory;
 }
 .form input{
-	color:rgb(125,175,135);
+	color:ivory;
 	padding: 8px 25px;
 	margin: 4px;
 	font-size: 50px;
 	font-family: cursive;
 }
 .button{
-	color:red;	
+	color:green;	
 
 }
 .marq{
 	font-family: cursive;
 	font-size: 30px;
-	color: skyblue;
+	color: whitesmoke;
 }
 #output{
 	font-size: 34px;
