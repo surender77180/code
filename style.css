@@ -20,7 +20,8 @@ body{
 	color:ivory;
 }
 .form input{
-	color:ivory;
+	color:greenyellow;
+	border-block: dotted;
 	padding: 8px 25px;
 	margin: 4px;
 	font-size: 50px;
