@@ -1,44 +1,68 @@
 body{
-	background-color:black;
-}
-.navbar{
-	border: 0px solid black;
-	padding: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color:#F1F6F5;
 	text-align: center;
-	font-size: 70px;
-	font-family: cursive;
+	margin: 0%;
+}
+
+.form{
+	background-color: #82C3EC;
+	width: 50%;
+	text-align: center;
+}
+form{
+	margin: 10%	;
+	margin-left: 22%;
+	text-align: center;
+	font-size: 170%;
+	
+}
+
+.bar{
+	border: 0.2em solid blue;
+	border-radius: 25px;
+}
+
+.navbar{
+	color: #472183;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+h1{
+	margin: 0%;
+	font-size: 90%;
 }
 .form{
-	padding: px 2px;
-	margin: 50px 2px;
-	border: 0px solid black;
-	font-size: 70px;
-	font-family: cursive;
 	text-align: center;
-}
-.form label{
-	color:ivory;
-}
-.form input{
-	color:greenyellow;
-	border-block: dotted;
-	padding: 8px 25px;
-	margin: 4px;
-	font-size: 50px;
-	font-family: cursive;
-}
-.button{
-	color:green;	
+	padding-left:0px ;
+	color:#472183;
+	font-family: Arial, Helvetica, sans-serif;
 
 }
-.marq{
-	font-family: cursive;
-	font-size: 30px;
-	color: whitesmoke;
+
+input{
+	border: 1px solid black;
+	border-radius: 5px;
 }
+input:hover{
+	font-size: x-large;
+	font-style: italic;
+	color: #82C3EC;
+}
+.button{
+	color:#F1F6F5;
+	background-color: #4B56D2;
+	font-size: 0.8em;
+	padding: 0.2em 0.3em;
+}
+
 #output{
-	font-size: 34px;
-	color: blue;
-	margin: 2px 46%;
-	text-align: inherit;
+	border: 3px solid blue;
+	border-radius: 10px;
+	margin: 20px;
 }
