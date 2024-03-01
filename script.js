@@ -3,7 +3,9 @@ let currentDate = document.getElementById("current_date");
 let output = document.getElementById("output");
 
 document.getElementById("calculate_btn").addEventListener("click", eve => {
+ 
   eve.preventDefault();
+  
   console.log(previousDate.value);
   if (previousDate.value == "" || currentDate.value == "") {
     output.innerHTML = "Please select Date";
@@ -14,8 +16,8 @@ document.getElementById("calculate_btn").addEventListener("click", eve => {
 });
 
 function calculateAgeDifference(start, end) {
-  // console.log(start);
-  // 2000-08-18
+  console.log(start);
+  console.log(end)
   let dobYear = parseInt(start.substring(0, 4));
   let dobMonth = parseInt(start.substring(5, 7));
   let dobDate = parseInt(start.substring(8, 10));
@@ -23,7 +25,7 @@ function calculateAgeDifference(start, end) {
   let currMonth = parseInt(end.substring(5, 7));
   let currDate = parseInt(end.substring(8, 10));
 
-
+  console.log(dobYear)
   let yearAgeDiff = currYear - dobYear;
 
 
