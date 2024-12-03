@@ -10,26 +10,30 @@
 </head>
 
 <body>
-  <div class="form bar">
-   <nav class="navbar">
-    <h1>Age Calculator</h1>
-    </nav>
-
-    <form class="form">
-      <label for="previous_date">Date of Birth:</label>
-      <input type="date" id="previous_date" name="prev_date" required><br><br>
-      <label for="current_date">Date of Present:</label>
-      <input type="date" id="current_date" name="curr_date" required><br><br>
-      <input class="button" type="Submit" name="Submit Button" value="Calculate" id="calculate_btn"
-        onclick="alert('Age is Calculate !You are confirm')">
-    </form>
-    <div id="output">
+  <h1>
+    Age Calculator
+  </h1>
+  <div class="root">
+    <div class="main">
+      <div class="inp-data">
+        <label>Date Of Birth</label>
+        <input type="date" id="previous_date" required />
+      </div>
+      <div class="inp-data">
+        <label>Date of Present</label>
+        <input type="date" id="current_date" required />
+      </div>
+      <button id="btn">Calculate</button>
     </div>
-
-    <marquee class="marq" width="100%" behavior="scroll">www.codehere.com contact person- 8683077180
-    </marquee>
+    <div class="marquee">
+      <marquee width="100%" behavior="scroll">
+       https://www.linkedin.com/in/surenderghordla ,Contect-no:8683077180
+      </marquee>
+    </div>
+    <div >
+      <p id="output"></p>
+    </div>
   </div>
-
   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 

@@ -2,9 +2,8 @@ let previousDate= document.getElementById("previous_date");
 let currentDate = document.getElementById("current_date");
 let output = document.getElementById("output");
 
-document.getElementById("calculate_btn").addEventListener("click", eve => {
+document.getElementById("btn").addEventListener("click", eve => {
   eve.preventDefault();
-  console.log(previousDate.value);
   if (previousDate.value == "" || currentDate.value == "") {
     output.innerHTML = "Please select Date";
   } else {
